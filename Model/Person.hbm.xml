@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping namespace="Succintly.Model" assembly="Succintly.Model" xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Person" lazy="true" table="`PERSON`" abstract="true">
+		<id column="`PERSON_ID`" name="PersonId" generator="hilo"/>
+		<!--<discriminator column="`CLASS`"/>-->
+		<property name="Name" column="`name`" length="100" not-null="true"/>
+		<property name="Gender" column="gender"/>
+	</class>
+</hibernate-mapping>

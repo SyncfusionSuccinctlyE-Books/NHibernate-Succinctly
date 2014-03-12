@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<nhv-mapping xmlns="urn:nhibernate-validator-1.0" namespace="Succintly.Model" assembly="Succintly.Model">
+	<class name="Customer">
+		<property name="Name">
+			<length max="50" message="The customer name can only have 50 characters"/>
+			<notnull-notempty message="The customer name is mandatory"/>
+		</property>
+		<property name="Email">
+			<length max="50" message="The customer email can only have 50 characters"/>
+			<notnull-notempty message="The customer email is mandatory"/>
+			<email message="The customer email must be a valid email adddress"/>
+		</property>
+		<property name="Address">
+			<not-null message="The customer address is mandatory"/>
+		</property>
+		<property name="CustomerId">
+			<rule attribute="IsEvenAttribute">
+				<param name="Message" value="Odd number"/>
+			</rule>
+		</property>
+	</class>
+</nhv-mapping>

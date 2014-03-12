@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping namespace="Succintly.Model" assembly="Succintly.Model" xmlns="urn:nhibernate-mapping-2.2">
+	<class name="User" lazy="true" table="`USER`" batch-size="10">
+		<id name="UserId" column="`USER_ID`" generator="hilo" />
+		<property name="Username" column="`USERNAME`" length="20" not-null="true" />
+		<property name="Birthday" column="`BIRTHDAY`" not-null="false" />
+		<component name="Details">
+			<property name="Fullname" column="`FULLNAME`" length="50" not-null="true" />
+			<property name="Email" column="`EMAIL`" length="50" not-null="true" />
+			<property name="Url" column="`URL`" length="50" not-null="false" />
+		</component>
+		<set cascade="all-delete-orphan" inverse="true" lazy="true" name="Blogs" batch-size="10">
+			<key column="`USER_ID`" />
+			<one-to-many class="Blog" />
+		</set>
+	</class>
+</hibernate-mapping>

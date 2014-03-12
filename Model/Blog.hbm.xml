@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping namespace="Succintly.Model" assembly="Succintly.Model" xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Blog" lazy="true" table="`BLOG`">
+		<id name="BlogId" column="`BLOG_ID`" generator="hilo" />
+		<property name="Name" column="`NAME`" length="50" not-null="true" />
+		<property name="Creation" column="`CREATION`" not-null="true" />
+		<property name="PostCount" formula="(SELECT COUNT(1) FROM post WHERE post.blog_id = blog_id)" />
+		<property name="Picture" column="`PICTURE`" not-null="false" lazy="true">
+			<type name="Succintly.Common.ImageUserType, Succintly.Common">
+				<param name="ImageFormat">Gif</param>
+			</type>
+		</property>
+		<many-to-one name="Owner" column="`USER_ID`" not-null="true" lazy="no-proxy" cascade="save-update" />
+		<list cascade="all-delete-orphan" inverse="true" lazy="true" name="Posts">
+			<key column="`BLOG_ID`" />
+			<index column="`NUMBER`"/>
+			<one-to-many class="Post" />
+		</list>
+	</class>
+</hibernate-mapping>

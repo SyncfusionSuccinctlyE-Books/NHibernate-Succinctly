@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Succintly.Model" assembly="Succintly.Model" xmlns="urn:nhibernate-mapping-2.2">
+	<union-subclass name="ForeignCitizen" lazy="true" extends="Person" table="`FOREIGN_CITIZEN`">
+	<!--<joined-subclass name="ForeignCitizen" lazy="true" extends="Person" table="`FOREIGN_CITIZEN`">-->
+	<!--<subclass name="ForeignCitizen" discriminator-value="foreign_citizen" lazy="true" extends="Person">-->
+		<!--<key column="`PERSON_ID`"/>-->
+		<property name="Country" column="`country`" length="20" not-null="false"/>
+		<property name="Passport" column="`passport`" length="20" not-null="false"/>
+	<!--</subclass>-->
+	<!--</joined-subclass>-->
+	</union-subclass>
+</hibernate-mapping>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping namespace="Succintly.Model" assembly="Succintly.Model" xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Attachment" lazy="true" table="`ATTACHMENT`">
+		<id name="AttachmentId" column="`ATTACHMENT_ID`" generator="hilo" />
+		<property name="Filename" column="`FILENAME`" length="50" not-null="true" />
+		<property name="Timestamp" column="`TIMESTAMP`" not-null="true" />
+		<property name="Contents" type="BinaryBlob" column="`CONTENTS`" length="100000" not-null="true" lazy="true" />
+		<many-to-one name="Post" column="`POST_ID`" not-null="true" lazy="no-proxy" />
+	</class>
+</hibernate-mapping>

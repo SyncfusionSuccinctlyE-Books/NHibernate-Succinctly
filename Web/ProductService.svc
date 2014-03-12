@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost CodeBehind="ProductService.svc.cs" Language="C#" Service="Succintly.Web.ProductService" %>

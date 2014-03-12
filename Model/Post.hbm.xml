@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping namespace="Succintly.Model" assembly="Succintly.Model" xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Post" lazy="true" table="`POST`">
+		<id name="PostId" column="`POST_ID`" generator="hilo" />
+		<property name="Title" column="`TITLE`" length="50" not-null="true" />
+		<property name="Timestamp" column="`TIMESTAMP`" not-null="true" />
+		<property name="Content" type="StringClob" column="`CONTENT`" length="2000" not-null="true" lazy="true" />
+		<many-to-one name="Blog" column="`BLOG_ID`" not-null="true" lazy="no-proxy" />
+		<set cascade="all" lazy="false" name="Tags" table="`TAG`" order-by="`TAG`">
+			<key column="`POST_ID`" not-null="true" />
+			<element column="`TAG`" type="String" length="20" not-null="true" unique="true" />
+		</set>
+		<set cascade="all-delete-orphan" inverse="true" lazy="true" name="Attachments">
+			<key column="`POST_ID`" not-null="true" />
+			<one-to-many class="Attachment" />
+		</set>
+		<bag cascade="all-delete-orphan" inverse="true" lazy="true" name="Comments">
+			<key column="`POST_ID`" not-null="true" />
+			<one-to-many class="Comment" />
+		</bag>
+	</class>
+</hibernate-mapping>
