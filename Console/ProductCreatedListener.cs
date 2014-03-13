@@ -1,8 +1,8 @@
 ﻿using System;
 using NHibernate.Event;
-using Succintly.Model;
+using Succinctly.Model;
 
-namespace Succintly.Console
+namespace Succinctly.Console
 {
 	public class ProductCreatedListener : IFlushEntityEventListener
 	{

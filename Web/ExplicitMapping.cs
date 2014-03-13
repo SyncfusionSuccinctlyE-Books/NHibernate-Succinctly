@@ -3,11 +3,11 @@ using NHibernate;
 using NHibernate.Cfg.MappingSchema;
 using NHibernate.Mapping.ByCode;
 using NHibernate.Type;
-using Succintly.Common;
-using Succintly.Model;
+using Succinctly.Common;
+using Succinctly.Model;
 using System;
 
-namespace Succintly.Web
+namespace Succinctly.Web
 {
 	public class ExplicitMapping : BaseMapping
 	{

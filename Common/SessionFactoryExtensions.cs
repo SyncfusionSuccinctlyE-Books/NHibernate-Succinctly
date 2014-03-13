@@ -6,7 +6,7 @@ using NHibernate.Dialect.Function;
 using NHibernate.Impl;
 using NHibernate.Type;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public static class SessionFactoryExtensions
 	{

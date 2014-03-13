@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using NHibernate.Type;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	[Serializable]
 	[NHibernate.Mapping.Attributes.Class(0, Table = "person", Lazy = true, Abstract = true)]

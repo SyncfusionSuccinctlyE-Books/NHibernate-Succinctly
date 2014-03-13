@@ -1,55 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Succintly.Common.AttributeMapping" Collapsed="true">
+  <Class Name="Succinctly.Common.AttributeMapping" Collapsed="true">
     <Position X="0.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
       <FileName>AttributeMapping.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Succintly.Common.BaseConfiguration" Collapsed="true">
+  <Class Name="Succinctly.Common.BaseConfiguration" Collapsed="true">
     <Position X="1.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BaseConfiguration.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Succintly.Common.BaseMapping" Collapsed="true">
+  <Class Name="Succinctly.Common.BaseMapping" Collapsed="true">
     <Position X="4" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BaseMapping.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Succintly.Common.CompositeMapping" Collapsed="true">
+  <Class Name="Succinctly.Common.CompositeMapping" Collapsed="true">
     <Position X="7.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CompositeMapping.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Succintly.Common.ConventionMapping" Collapsed="true">
+  <Class Name="Succinctly.Common.ConventionMapping" Collapsed="true">
     <Position X="3" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAQAEBAAACBAAIAABBAAAAYAAAIAACEAAAwIABA=</HashCode>
       <FileName>ConventionMapping.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Succintly.Common.LoquaciousConfiguration" Collapsed="true">
+  <Class Name="Succinctly.Common.LoquaciousConfiguration" Collapsed="true">
     <Position X="2.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>LoquaciousConfiguration.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Succintly.Common.XmlConfiguration" Collapsed="true">
+  <Class Name="Succinctly.Common.XmlConfiguration" Collapsed="true">
     <Position X="0.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>XmlConfiguration.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Succintly.Common.XmlMapping" Collapsed="true">
+  <Class Name="Succinctly.Common.XmlMapping" Collapsed="true">
     <Position X="5.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAABAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>

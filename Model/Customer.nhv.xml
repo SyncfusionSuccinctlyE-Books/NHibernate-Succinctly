@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<nhv-mapping xmlns="urn:nhibernate-validator-1.0" namespace="Succintly.Model" assembly="Succintly.Model">
+<nhv-mapping xmlns="urn:nhibernate-validator-1.0" namespace="Succinctly.Model" assembly="Succinctly.Model">
 	<class name="Customer">
 		<property name="Name">
 			<length max="50" message="The customer name can only have 50 characters"/>

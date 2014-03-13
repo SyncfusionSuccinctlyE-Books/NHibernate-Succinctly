@@ -8,8 +8,8 @@
     <ProjectGuid>{7873CD6A-E627-45F7-85DD-60C2B4602FF1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Succintly.Model</RootNamespace>
-    <AssemblyName>Succintly.Model</AssemblyName>
+    <RootNamespace>Succinctly.Model</RootNamespace>
+    <AssemblyName>Succinctly.Model</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

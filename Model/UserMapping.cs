@@ -1,7 +1,7 @@
 ﻿using NHibernate.Mapping.ByCode;
 using NHibernate.Mapping.ByCode.Conformist;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	public class UserMapping : ClassMapping<User>
 	{

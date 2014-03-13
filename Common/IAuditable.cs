@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public interface IAuditable
 	{

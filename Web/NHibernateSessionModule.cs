@@ -4,15 +4,15 @@ using NHibernate;
 using NHibernate.Context;
 using NHibernate.Cfg;
 using NHibernate.Mapping.ByCode;
-using Succintly.Model;
+using Succinctly.Model;
 using NHibernate.Type;
 using NHibernate.Cfg.MappingSchema;
-using Succintly.Common;
+using Succinctly.Common;
 using NHibernate.Driver;
 using NHibernate.Dialect;
 using NHibernate.AdoNet;
 
-namespace Succintly.Web
+namespace Succinctly.Web
 {
 	public class NHibernateSessionModule : IHttpModule
 	{
@@ -41,7 +41,7 @@ namespace Succintly.Web
 		{
 			BaseConfiguration config = new LoquaciousConfiguration();
 			Configuration cfg = config
-			.BuildConfiguration<Sql2008ClientDriver, MsSql2008Dialect, WebSessionContext, SqlClientBatchingBatcherFactory>(new ExplicitMapping(), "Succintly", true);
+			.BuildConfiguration<Sql2008ClientDriver, MsSql2008Dialect, WebSessionContext, SqlClientBatchingBatcherFactory>(new ExplicitMapping(), "Succinctly", true);
 
 			this.SessionFactory = cfg.BuildSessionFactory();
 

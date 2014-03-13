@@ -4,10 +4,10 @@ using NHibernate.Cfg;
 using NHibernate.Cfg.MappingSchema;
 using NHibernate.Mapping.ByCode;
 using NHibernate.Type;
-using Succintly.Common;
-using Succintly.Model;
+using Succinctly.Common;
+using Succinctly.Model;
 
-namespace Succintly.Console
+namespace Succinctly.Console
 {
 	public sealed class ExplicitMapping : BaseMapping
 	{

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Succintly.Common;
+using Succinctly.Common;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	[Serializable]
 	public class Record : IAuditable

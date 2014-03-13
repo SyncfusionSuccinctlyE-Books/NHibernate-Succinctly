@@ -4,7 +4,7 @@ using System.Xml.Linq;
 using Iesi.Collections.Generic;
 using System.Drawing;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	[Serializable]
 	public class Product

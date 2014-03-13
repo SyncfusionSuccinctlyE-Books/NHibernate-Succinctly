@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Succintly.Model;
+using Succinctly.Model;
 using NHibernate.Mapping.ByCode.Conformist;
 using NHibernate.Mapping.ByCode;
 using NHibernate.Type;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	public class TermMapping : ClassMapping<Term>
 	{

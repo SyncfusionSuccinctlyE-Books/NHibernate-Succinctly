@@ -5,7 +5,7 @@ using System.Text;
 using NHibernate;
 using NHibernate.SqlCommand;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public class SendSqlInterceptor : EmptyInterceptor
 	{

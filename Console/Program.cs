@@ -29,10 +29,10 @@ using NHibernate.Validator.Cfg.Loquacious;
 using NHibernate.Validator.Engine;
 using NHibernate.Validator.Event;
 using NHibernate.Validator.Exceptions;
-using Succintly.Common;
-using Succintly.Model;
+using Succinctly.Common;
+using Succinctly.Model;
 
-namespace Succintly.Console
+namespace Succinctly.Console
 {
 	class Program
 	{
@@ -40,16 +40,16 @@ namespace Succintly.Console
 		{			
 			BaseConfiguration config = new LoquaciousConfiguration();
 			Configuration cfg = config
-			.BuildConfiguration<Sql2008ClientDriver, MsSql2008Dialect, ThreadStaticSessionContext, SqlClientBatchingBatcherFactory>(new ConventionMapping(typeof(Blog).Assembly.FullName), "Succintly", false);
+			.BuildConfiguration<Sql2008ClientDriver, MsSql2008Dialect, ThreadStaticSessionContext, SqlClientBatchingBatcherFactory>(new ConventionMapping(typeof(Blog).Assembly.FullName), "Succinctly", false);
 
 			return (cfg);
 		}
 
 		static Configuration BuildFileConventionsConfiguration()
 		{
-			BaseConfiguration config = new Succintly.Common.XmlConfiguration();
+			BaseConfiguration config = new Succinctly.Common.XmlConfiguration();
 			Configuration cfg = config
-			.BuildConfiguration(null, null, null, null, new ConventionMapping(typeof(Blog).Assembly.FullName), "Succintly", false);
+			.BuildConfiguration(null, null, null, null, new ConventionMapping(typeof(Blog).Assembly.FullName), "Succinctly", false);
 
 			return (cfg);
 		}
@@ -58,7 +58,7 @@ namespace Succintly.Console
 		{
 			BaseConfiguration config = new LoquaciousConfiguration();
 			Configuration cfg = config
-			.BuildConfiguration<Sql2008ClientDriver, MsSql2008Dialect, ThreadStaticSessionContext, SqlClientBatchingBatcherFactory>(new CompositeMapping(/*new ConventionMapping(typeof(Blog).Assembly),*//*new XmlMapping(typeof(Blog).Assembly), */new ExplicitMapping()/*, new AttributeMapping(typeof(Blog))*/), "Succintly", true);
+			.BuildConfiguration<Sql2008ClientDriver, MsSql2008Dialect, ThreadStaticSessionContext, SqlClientBatchingBatcherFactory>(new CompositeMapping(/*new ConventionMapping(typeof(Blog).Assembly),*//*new XmlMapping(typeof(Blog).Assembly), */new ExplicitMapping()/*, new AttributeMapping(typeof(Blog))*/), "Succinctly", true);
 
 			return (cfg);
 		}
@@ -200,7 +200,7 @@ namespace Succintly.Console
 		static void GenerateSchema(Configuration cfg)
 		{
 			SchemaExport export = new SchemaExport(cfg)
-			.SetOutputFile("Succintly.sql");
+			.SetOutputFile("Succinctly.sql");
 
 			export.Execute(true, true, false);
 		}
@@ -1014,7 +1014,7 @@ namespace Succintly.Console
 
 					//all ForeignCitizens
 					var allForeignCitizens = session.CreateQuery("from ForeignCitizen").List<ForeignCitizen>();
-					var allForeignCitizensFromPerson = session.CreateQuery("from Person p where p.class = Succintly.Model.ForeignCitizen").List<ForeignCitizen>();
+					var allForeignCitizensFromPerson = session.CreateQuery("from Person p where p.class = Succinctly.Model.ForeignCitizen").List<ForeignCitizen>();
 
 				}
 
@@ -1411,7 +1411,7 @@ namespace Succintly.Console
 				IEnumerable<ForeignCitizen> foreignCitizensFromLinq = session.Query<Person>().Where(x => x is ForeignCitizen).Cast<ForeignCitizen>().ToList();
 				IEnumerable<NationalCitizen> nationalCitizenFromCriteria = session.CreateCriteria(typeof(Person), "p").Add(NHibernate.Criterion.Property.ForName("p.class").Eq(typeof(NationalCitizen))).List<NationalCitizen>();
 				IEnumerable<NationalCitizen> nationalCitizenFromQueryOver = session.QueryOver<Person>().Where(x => x.GetType() == typeof(NationalCitizen)).List<NationalCitizen>();
-				IEnumerable<NationalCitizen> nationalCitizensFromHql = session.CreateQuery("from Person p where p.class = Succintly.Model.NationalCitizen").List<NationalCitizen>();
+				IEnumerable<NationalCitizen> nationalCitizensFromHql = session.CreateQuery("from Person p where p.class = Succinctly.Model.NationalCitizen").List<NationalCitizen>();
 				IEnumerable<ForeignCitizen> foreignCitizensFromHql = session.CreateQuery("from ForeignCitizen").List<ForeignCitizen>();
 			}
 		}

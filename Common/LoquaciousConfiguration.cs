@@ -8,7 +8,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using NHibernate.Context;
 using NHibernate.AdoNet;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public sealed class LoquaciousConfiguration : BaseConfiguration
 	{

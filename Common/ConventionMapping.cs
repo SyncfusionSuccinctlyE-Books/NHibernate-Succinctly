@@ -10,7 +10,7 @@ using NHibernate.Type;
 using NHibernate.Mapping;
 using System.Collections.Generic;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public sealed class ConventionMapping : BaseMapping
 	{

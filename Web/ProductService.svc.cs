@@ -4,13 +4,13 @@ using System.Linq;
 using System.Web;
 using System.ServiceModel;
 using System.ServiceModel.Activation;
-using Succintly.Model;
+using Succinctly.Model;
 using NHibernate;
 using NHibernate.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel.Web;
 
-namespace Succintly.Web
+namespace Succinctly.Web
 {
 	[DataContract]
 	public class ProductDTO

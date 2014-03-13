@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using NHibernate.Linq;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public static class StringExtensions
 	{

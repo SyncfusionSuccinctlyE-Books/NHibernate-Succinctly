@@ -1,6 +1,6 @@
 ﻿using NHibernate.Mapping.ByCode.Conformist;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	public class TranslationMapping : ClassMapping<Translation>
 	{

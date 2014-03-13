@@ -2,7 +2,7 @@
 using NHibernate.Cfg;
 using System.Text;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public abstract class BaseMapping
 	{

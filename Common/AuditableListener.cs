@@ -8,7 +8,7 @@ using NHibernate.Event;
 using NHibernate.Intercept;
 using NHibernate.Proxy;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public class AuditableListener : IFlushEntityEventListener, ISaveOrUpdateEventListener, IMergeEventListener
 	{

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public static class QueryableExtensions
 	{

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Succintly.Web {
+namespace Succinctly.Web {
     
     
     public partial class Default {

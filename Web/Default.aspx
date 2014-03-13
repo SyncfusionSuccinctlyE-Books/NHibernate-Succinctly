@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" CodeBehind="Default.aspx.cs" Inherits="Succintly.Web.Default" %>
+﻿<%@ Page Language="C#" CodeBehind="Default.aspx.cs" Inherits="Succinctly.Web.Default" %>
 <!DOCTYPE html>
 <html>
 <head runat="server">

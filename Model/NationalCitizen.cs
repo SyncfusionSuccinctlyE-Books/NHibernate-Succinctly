@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	[Serializable]
 	//[NHibernate.Mapping.Attributes.Subclass(DiscriminatorValue = "national_citizen", ExtendsType = typeof(Person), Lazy = true)]

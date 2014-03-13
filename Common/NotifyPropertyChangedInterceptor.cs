@@ -5,7 +5,7 @@ using NHibernate;
 using NHibernate.Proxy.DynamicProxy;
 using System.Reflection;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public sealed class NotifyPropertyChangedInterceptor : EmptyInterceptor
 	{

@@ -6,7 +6,7 @@ using NHibernate.Dialect;
 using NHibernate.Driver;
 using NHibernate.Linq;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public abstract class BaseConfiguration
 	{

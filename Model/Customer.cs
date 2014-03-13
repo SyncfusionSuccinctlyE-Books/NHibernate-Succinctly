@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Web;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	[Serializable]
 	public class Customer

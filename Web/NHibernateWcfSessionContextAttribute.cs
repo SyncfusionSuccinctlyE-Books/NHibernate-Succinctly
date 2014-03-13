@@ -6,7 +6,7 @@ using System.ServiceModel.Description;
 using System.ServiceModel.Dispatcher;
 using NHibernate.Context;
 
-namespace Succintly.Web
+namespace Succinctly.Web
 {
 	[Serializable]
 	[AttributeUsage(AttributeTargets.Class,	AllowMultiple = false, Inherited = false)]

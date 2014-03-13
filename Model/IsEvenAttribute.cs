@@ -6,7 +6,7 @@ using NHibernate.Validator.Constraints;
 using NHibernate.Validator.Engine;
 using NHibernate.Mapping;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	[Serializable]
 	[AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = false, Inherited = true)]

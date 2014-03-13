@@ -4,9 +4,9 @@ using NHibernate;
 using System.Collections.Generic;
 using NHibernate.Type;
 using System.Drawing;
-using Succintly.Common;
+using Succinctly.Common;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	[Serializable]
 	[NHibernate.Mapping.Attributes.Class(Table = "blog", Lazy = true)]

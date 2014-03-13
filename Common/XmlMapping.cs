@@ -2,7 +2,7 @@
 using NHibernate.Cfg;
 using System.Reflection;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public sealed class XmlMapping : BaseMapping
 	{

@@ -5,7 +5,7 @@ using Iesi.Collections.Generic;
 using System.Collections.Generic;
 using NHibernate.Type;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	[Serializable]
 	[NHibernate.Mapping.Attributes.Class(Table = "post", Lazy = true)]

@@ -8,8 +8,8 @@
     <ProjectGuid>{EC249A53-C239-4114-9BED-24A115DA5057}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Succintly.Common</RootNamespace>
-    <AssemblyName>Succintly.Common</AssemblyName>
+    <RootNamespace>Succinctly.Common</RootNamespace>
+    <AssemblyName>Succinctly.Common</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

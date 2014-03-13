@@ -3,7 +3,7 @@ using NHibernate.Mapping.ByCode;
 using NHibernate.Mapping.ByCode.Conformist;
 using NHibernate.Type;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	public class RecordMapping : ClassMapping<Record>
 	{

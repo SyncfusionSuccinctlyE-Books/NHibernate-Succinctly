@@ -3,7 +3,7 @@ using Iesi.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	[Serializable]
 	public class OrderDetail

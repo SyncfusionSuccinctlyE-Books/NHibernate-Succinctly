@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using NHibernate.Mapping.ByCode.Conformist;
 using NHibernate.Mapping.ByCode;
-using Succintly.Common;
+using Succinctly.Common;
 using System.Drawing.Imaging;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	public class BlogMapping : ClassMapping<Blog>
 	{

@@ -2,7 +2,7 @@
 using System.Web;
 using log4net.Config;
 
-namespace Succintly.Web
+namespace Succinctly.Web
 {
 	public class Global : HttpApplication
 	{

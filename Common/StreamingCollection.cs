@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Collections.ObjectModel;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public class StreamingCollection<T> : Collection<T>
 	{

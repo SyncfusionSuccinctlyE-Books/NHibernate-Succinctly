@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using NHibernate.Validator.Cfg.Loquacious;
-using Succintly.Model;
+using Succinctly.Model;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	public class CustomerValidation : ValidationDef<Customer>
 	{

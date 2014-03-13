@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Succintly.Model.ForeignCitizen">
+  <Class Name="Succinctly.Model.ForeignCitizen">
     <Position X="5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ForeignCitizen.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Succintly.Model.NationalCitizen">
+  <Class Name="Succinctly.Model.NationalCitizen">
     <Position X="2.5" Y="4.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>NationalCitizen.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Succintly.Model.Person">
+  <Class Name="Succinctly.Model.Person">
     <Position X="3.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAACEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Person.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Succintly.Model.Customer">
+  <Class Name="Succinctly.Model.Customer">
     <Position X="9.5" Y="0.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
@@ -38,7 +38,7 @@
       <Property Name="Orders" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="Succintly.Model.Order">
+  <Class Name="Succinctly.Model.Order">
     <Position X="9.5" Y="3.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
@@ -54,7 +54,7 @@
       <Property Name="Details" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="Succintly.Model.OrderDetail">
+  <Class Name="Succinctly.Model.OrderDetail">
     <Position X="12.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAECAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAgQAAAAA=</HashCode>
@@ -65,7 +65,7 @@
       <Property Name="Product" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="Succintly.Model.Product">
+  <Class Name="Succinctly.Model.Product">
     <Position X="15.5" Y="3.25" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
@@ -78,7 +78,7 @@
       <Property Name="OrderDetails" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="Succintly.Model.Blog">
+  <Class Name="Succinctly.Model.Blog">
     <Position X="3.5" Y="12.25" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
@@ -92,7 +92,7 @@
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Succintly.Model.User">
+  <Class Name="Succinctly.Model.User">
     <Position X="0.5" Y="12.25" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
@@ -108,7 +108,7 @@
       <Property Name="Blogs" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="Succintly.Model.Post">
+  <Class Name="Succinctly.Model.Post">
     <Position X="3.5" Y="8.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
@@ -125,7 +125,7 @@
       <Property Name="Comments" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="Succintly.Model.Comment">
+  <Class Name="Succinctly.Model.Comment">
     <Position X="6.5" Y="8.25" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
@@ -139,7 +139,7 @@
       <Property Name="Post" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="Succintly.Model.Attachment">
+  <Class Name="Succinctly.Model.Attachment">
     <Position X="0.5" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAQAAAAAACAAAACAAAQAAAAAAAAABAAAA=</HashCode>
@@ -149,7 +149,7 @@
       <Property Name="Post" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="Succintly.Model.Address">
+  <Class Name="Succinctly.Model.Address">
     <Position X="6.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAAAAAAAAAAAAIAAAAAAAAAAIAABABAAIAAAAAAAA=</HashCode>
@@ -159,7 +159,7 @@
       <Property Name="Customer" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="Succintly.Model.UserDetail">
+  <Class Name="Succinctly.Model.UserDetail">
     <Position X="6.5" Y="11.25" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
@@ -169,7 +169,7 @@
       <FileName>UserDetail.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Succintly.Model.Term">
+  <Class Name="Succinctly.Model.Term">
     <Position X="10.5" Y="9" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
@@ -182,7 +182,7 @@
       <Property Name="Translations" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="Succintly.Model.Translation">
+  <Class Name="Succinctly.Model.Translation">
     <Position X="13.5" Y="9" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
@@ -193,7 +193,7 @@
       <FileName>Translation.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Succintly.Model.Language">
+  <Class Name="Succinctly.Model.Language">
     <Position X="13.5" Y="7" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
@@ -203,7 +203,7 @@
       <FileName>Language.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Succintly.Model.LanguageTerm">
+  <Class Name="Succinctly.Model.LanguageTerm">
     <Position X="10.5" Y="7.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />

@@ -8,7 +8,7 @@ using NHibernate.Persister.Entity;
 using NHibernate.Tuple;
 using NHibernate.Proxy;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public static class SessionExtensions
 	{

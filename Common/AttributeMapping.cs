@@ -7,7 +7,7 @@ using NHibernate.Cfg;
 using System.Reflection;
 using System.IO;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public sealed class AttributeMapping : BaseMapping
 	{

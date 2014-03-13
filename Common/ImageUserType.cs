@@ -10,7 +10,7 @@ using NHibernate.SqlTypes;
 using NHibernate.UserTypes;
 using System.Reflection;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	[Serializable]
 	public sealed class ImageUserType : IUserType, IParameterizedType

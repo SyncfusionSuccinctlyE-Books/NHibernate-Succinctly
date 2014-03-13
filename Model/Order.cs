@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Collections.Generic;
 
-namespace Succintly.Model
+namespace Succinctly.Model
 {
 	[Serializable]
 	public class Order

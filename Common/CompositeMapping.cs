@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using NHibernate.Cfg;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public sealed class CompositeMapping : BaseMapping
 	{

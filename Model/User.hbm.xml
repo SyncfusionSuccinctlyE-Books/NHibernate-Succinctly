@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<hibernate-mapping namespace="Succintly.Model" assembly="Succintly.Model" xmlns="urn:nhibernate-mapping-2.2">
+<hibernate-mapping namespace="Succinctly.Model" assembly="Succinctly.Model" xmlns="urn:nhibernate-mapping-2.2">
 	<class name="User" lazy="true" table="`USER`" batch-size="10">
 		<id name="UserId" column="`USER_ID`" generator="hilo" />
 		<property name="Username" column="`USERNAME`" length="20" not-null="true" />

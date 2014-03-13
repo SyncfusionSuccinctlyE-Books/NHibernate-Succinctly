@@ -3,7 +3,7 @@ using NHibernate.Cfg;
 using NHibernate.Tool.hbm2ddl;
 using System.Collections.Generic;
 
-namespace Succintly.Common
+namespace Succinctly.Common
 {
 	public sealed class XmlConfiguration : BaseConfiguration
 	{
